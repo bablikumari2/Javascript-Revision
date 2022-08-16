@@ -31,4 +31,31 @@
 // function test(){
 //     console.log(20)
 // }
+// test()
 // test()   output=10
+
+// during runtime the test variable is assigned an anonymous function which overrides the named function test.
+// that why its prints 10;
+
+
+// var name = 'zone'
+// var obj={
+//     name:"babli",
+//     showName:function(){
+//         console.log(this.name)
+//         setTimeout(function(){
+//             console.log(this.name)
+//         },3000)
+//     }
+
+// }
+// obj.showName()
+
+// var arr =[4,3,2,1]
+// var rev = arr.reverse();
+// console.log(rev)
+
+// x=10
+// var x
+// console.log(x)
+
